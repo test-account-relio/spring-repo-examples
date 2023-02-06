@@ -56,7 +56,7 @@ public class Book {
 		return author;
 	}
 	
-	showing drift
+	//showing drift
 	public String getAuthor2() {
 		return author2;
 	}
