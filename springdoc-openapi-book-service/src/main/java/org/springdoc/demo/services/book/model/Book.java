@@ -34,7 +34,7 @@ public class Book {
 	private String author;
 
 	// showing drift
-	private String author2;
+	//private String author2;
 	
 	public long getId() {
 		return id;
@@ -57,9 +57,9 @@ public class Book {
 	}
 	
 	// showing drift
-	public String getAuthor2() {
-		return author2;
-	}
+	//public String getAuthor2() {
+	//	return author2;
+	//}
 	
 	public void setAuthor(String author) {
 		this.author = author;
