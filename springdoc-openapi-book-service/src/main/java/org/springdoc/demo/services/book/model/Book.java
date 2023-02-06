@@ -33,6 +33,9 @@ public class Book {
 	@Size(min = 0, max = 30)
 	private String author;
 
+	// showing drift
+	private String author2;
+	
 	public long getId() {
 		return id;
 	}
@@ -52,7 +55,12 @@ public class Book {
 	public String getAuthor() {
 		return author;
 	}
-
+	
+	// showing drift
+	public String getAuthor2() {
+		return author2;
+	}
+	
 	public void setAuthor(String author) {
 		this.author = author;
 	}
