@@ -31,14 +31,14 @@ public class PersonController {
 	}
 
 	@GetMapping(path = "/persons")
-	public List<Person> findByLastName(@RequestParam @NotBlank @Size(max = 10) String lastName) {
+	public List<Person> findByLastName(/*@RequestParam @NotBlank @Size(max = 10) String lastName*/) {
 		List<Person> hardCoded = new ArrayList<>();
 		Person person = new Person();
 		person.setAge(20);
 		person.setEmail1("abc1@abc.com");
 		person.setEmail2("abc@abc.com");
 		person.setFirstName("Somefirstname");
-		person.setLastName(lastName);
+		//person.setLastName(lastName);
 		person.setId(1);
 		hardCoded.add(person);
 		return hardCoded;
