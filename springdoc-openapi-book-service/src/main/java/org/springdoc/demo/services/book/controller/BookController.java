@@ -61,7 +61,7 @@ public class BookController {
 
 	@PutMapping("/{id}")
 	@ResponseStatus(HttpStatus.OK)
-	public Book updateBook(@PathVariable("id") final String id, @RequestBody final Book book) {
+	public Book updateBook(@PathVariable("id") final String id /*, @RequestBody final Book book*/) {
 		return book;
 	}
 
