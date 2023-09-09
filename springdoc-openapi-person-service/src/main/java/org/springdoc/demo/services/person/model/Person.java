@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Person {
 
-	private long id;
+	//private long id;
 
 	@Size(min = 2, max = 50)
 	@NotBlank
@@ -43,6 +43,7 @@ public class Person {
 		this.worth = worth;
 	}
 
+	/*
 	public long getId() {
 		return id;
 	}
@@ -50,10 +51,12 @@ public class Person {
 	public void setId(long id) {
 		this.id = id;
 	}
+	*/
 
 	public String getEmail1() {
 		return email1;
 	}
+	
 
 	public void setEmail1(String email1) {
 		this.email1 = email1;
