@@ -23,7 +23,7 @@ import javax.validation.constraints.Size;
 
 public class Book {
 
-	private long id;
+	//private long id;
 
 	@NotBlank
 	@Size(min = 0, max = 20)
@@ -36,13 +36,14 @@ public class Book {
 	// showing drift
 	private String author2;
 	
-	public long getId() {
+	/*public long getId() {
 		return id;
 	}
 
 	public void setId(long id) {
 		this.id = id;
 	}
+	*/
 
 	public String getTitle() {
 		return title;
