@@ -25,6 +25,8 @@ public class Book {
 
 	private long id;
 
+	private long id2;
+
 	@NotBlank
 	@Size(min = 0, max = 20)
 	private String title;
@@ -44,6 +46,13 @@ public class Book {
 		this.id = id;
 	}
 	
+	public long getId2() {
+		return id2;
+	}
+
+	public void setId2(long id2) {
+		this.id2 = id2;
+	}
 
 	public String getTitle() {
 		return title;
