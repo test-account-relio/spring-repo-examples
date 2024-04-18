@@ -35,6 +35,9 @@ public class Book {
 
 	// showing drift
 	private String author2;
+
+	// showing drift
+	private String author3;
 	
 	public long getId() {
 		return id;
@@ -60,6 +63,15 @@ public class Book {
 	//showing drift
 	public String getAuthor2() {
 		return author2;
+	}
+
+	//showing drift
+	public String getAuthor3() {
+		return author3;
+	}
+
+	public void setAuthor3(String author3) {
+		this.author3 = author3;
 	}
 	
 	public void setAuthor(String author) {
